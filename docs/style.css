@@ -1,0 +1,114 @@
+
+
+@font-face {
+  font-family: 'VeronaSerial';
+  src: url(font/VeronaSerial.otf) format('opentype');
+}
+
+.page-wrapper {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.top {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.logo {
+  width: 22%;
+  height: auto;
+}
+
+.nav {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-family: 'VeronaSerial';
+  font-size: 20px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  height: 560px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'VeronaSerial';
+  font-size: 38px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h6 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  bottom: 5px;
+  color: white;
+  font-family: 'VeronaSerial';
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  margin-top: 25px;
+  color: white;
+  font-family: 'VeronaSerial';
+  font-size: 22px;
+}
+
+.square-content {
+  width: 440px;
+  height: 440px;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.square-one {
+  background-color: rgb(192, 219, 225);
+}
+
+.square-two {
+  background-color: rgb(245, 222, 152);
+}
+
+.square-three {
+  display: none;
+  background-color: rgb(183, 207, 173);
+}
+
+.square-four {
+  display: none;
+  background-color: rgb(223, 187, 202);
+}
