@@ -259,6 +259,7 @@ footer span {
 
   .square-border {
     border: none;
+    border-bottom: 1px solid black;
   }
 
   .profile-pic-disappear {
@@ -272,6 +273,7 @@ footer span {
 
   .bio {
     width: 80%;
+    height: auto;
     margin-bottom: 100px;
   }
 
