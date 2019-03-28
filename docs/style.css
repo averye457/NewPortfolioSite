@@ -69,6 +69,12 @@ a {
   margin-bottom: 30px;
 }
 
+#wide {
+     width: 1150px;
+     display: flex;
+     flex-direction: row;
+}
+
 h1 {
   padding: 0;
   margin: 0;
@@ -107,6 +113,15 @@ p {
   margin-left: 60px;
 }
 
+.weather-preview {
+     height: 250px;
+     width: auto;
+     position: relative;
+     top: 140px;
+     left: 100px;
+     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, .25);
+}
+
 .moonsun-preview {
   visibility: hidden;
 }
@@ -124,7 +139,6 @@ p {
 }
 
 .square-three {
-  display: none;
   background-color: rgb(183, 207, 173);
 }
 
